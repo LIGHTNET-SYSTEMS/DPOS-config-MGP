@@ -1,0 +1,21 @@
+[prod]
+name = 'producer111l'
+pvt = '5JxWkyTDwktJVs9MNgNgmaLrRc26ESswR9gk926g47t6UCqvmop'
+pub = 'EOS8jxiWA9ZHN37csWnoShEbs8tvgtYxt2UN4ZtMBXhGJRk8tQJqR'
+index = 11
+
+[keosd]
+wallet_dir = './wallet/'
+http_server_address = '127.0.0.1:8866'
+path = 'keosd '
+unlock_timeout = 999999999
+
+[cleos]
+path = 'cleos --url http://0.0.0.0:8011 '
+
+[nodeos]
+path = 'nodeos '
+
+[general]
+nodes_dir = './nodes/'
+genesis = '../genesis.json'

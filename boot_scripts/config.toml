@@ -1,0 +1,40 @@
+[keosd]
+wallet_dir = './wallet/'
+http_server_address = '127.0.0.1:8866'
+private_key = '5KJKoaqZbgNTPKMaxxJutMfDimzGD3HACWpx3o7p4LFdbtMT8pY'
+public_key = 'EOS7LDyv52z4iCvksBUUi8ByB5xvRaFHAMRiVDfJythVuoc1rvag3'
+path = 'keosd '
+unlock_timeout = 999999999
+wallet_file = 'genesis_wallet_passwd.txt'
+
+[cleos]
+path = 'cleos --url http://0.0.0.0:8000 '
+
+[nodeos]
+path = 'nodeos '
+
+[general]
+max_user_keys = 10
+user_limit = 10
+producer_limit = 4
+nodes_dir = './nodes/'
+genesis = '../genesis.json'
+contracts_dir = '/home/developer/eosio.contracts/build/contracts'
+symbol = 'LTN'
+num_voters = 10
+num_producers_vote = 4
+
+
+[funds]
+min_stake = 600
+max_unstaked = 10
+ram_funds = 100
+user_funds = 120000.0000
+producer_funds = 95000.0000
+
+[accounts]
+priv_incentive_public_key = 'EOS5mqGCPXQMyJkJBjM2o4kpsG8hynfg85pPRsm9C8mURPrALz1gp'
+team_holding_public_key = 'EOS7Vtc38KcTyTc72pMLe9HMuVWXUMXmXmZyQRzD6WgspjpFsfokx'
+app_public_key = 'EOS6CJ8cgcJhYdSNSA9xw7AygyN4mM5gHdDSkfEMXGmpdDaDeE9GM'
+market_public_key = 'EOS8Y1JNXSoaw4mJDqyFR21prE1jkiZKWDYR62FACswPZMvM17i6y'
+airdrops_public_key = 'EOS5sqWEcEHhnMKjpbjBzZGXuQNxGHdnjkncEtVChpirApa5YCn4k'

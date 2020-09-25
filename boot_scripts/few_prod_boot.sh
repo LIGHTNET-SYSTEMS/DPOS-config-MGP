@@ -1,0 +1,53 @@
+#!/bin/bash
+python3 10_boot_producer.py 1 producer_configs/producer_config0.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config1.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config2.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config3.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config4.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config5.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config6.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config7.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config8.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config9.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config10.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config11.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config12.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config13.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config14.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config15.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config16.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config17.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config18.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config19.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config20.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config21.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config22.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config23.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config24.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config25.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config26.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config27.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config28.toml
+python3 10_boot_producer.py 0 producer_configs/producer_config29.toml
+
+python3 14_add_peers.py producer_configs/producer_config0.toml
+python3 14_add_peers.py producer_configs/producer_config1.toml
+python3 14_add_peers.py producer_configs/producer_config2.toml
+python3 14_add_peers.py producer_configs/producer_config3.toml
+python3 14_add_peers.py producer_configs/producer_config4.toml
+python3 14_add_peers.py producer_configs/producer_config5.toml
+python3 14_add_peers.py producer_configs/producer_config6.toml
+python3 14_add_peers.py producer_configs/producer_config7.toml
+python3 14_add_peers.py producer_configs/producer_config8.toml
+python3 14_add_peers.py producer_configs/producer_config9.toml
+python3 14_add_peers.py producer_configs/producer_config10.toml
+python3 14_add_peers.py producer_configs/producer_config11.toml
+python3 14_add_peers.py producer_configs/producer_config12.toml
+python3 14_add_peers.py producer_configs/producer_config13.toml
+python3 14_add_peers.py producer_configs/producer_config14.toml
+python3 14_add_peers.py producer_configs/producer_config15.toml
+python3 14_add_peers.py producer_configs/producer_config16.toml
+python3 14_add_peers.py producer_configs/producer_config17.toml
+python3 14_add_peers.py producer_configs/producer_config18.toml
+python3 14_add_peers.py producer_configs/producer_config19.toml
+python3 14_add_peers.py producer_configs/producer_config20.toml

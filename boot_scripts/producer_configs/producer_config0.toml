@@ -1,0 +1,21 @@
+[prod]
+name = 'producer111a'
+pvt = '5KLGj1HGRWbk5xNmoKfrcrQHXvcVJBPdAckoiJgFftXSJjLPp7b'
+pub = 'EOS8imf2TDq6FKtLZ8mvXPWcd6EF2rQwo8zKdLNzsbU9EiMSt9Lwz'
+index = 0
+
+[keosd]
+wallet_dir = '/home/kstasi/Documents/DPOS-config-local/producer_scripts/wallet/'
+http_server_address = '127.0.0.1:8866'
+path = 'keosd '
+unlock_timeout = 999999999
+
+[cleos]
+path = 'cleos --url http://0.0.0.0:8000 '
+
+[nodeos]
+path = 'nodeos '
+
+[general]
+nodes_dir = '/home/kstasi/Documents/DPOS-config-local/producer_scripts/nodes/'
+genesis = '/home/kstasi/Documents/DPOS-config-local/genesis.json'

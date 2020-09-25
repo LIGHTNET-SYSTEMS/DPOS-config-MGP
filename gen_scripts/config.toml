@@ -1,0 +1,31 @@
+[cleos]
+path = 'cleos --url http://0.0.0.0:8000 '
+
+[nodeos]
+path = 'nodeos '
+
+[general]
+max_user_keys = 10
+user_limit = 10
+producer_limit = 4
+nodes_dir = './nodes/'
+genesis = '../genesis.json'
+contracts_dir = '/home/developer/eosio.contracts/build/contracts'
+symbol = 'LTN'
+num_voters = 10
+num_producers_vote = 4
+
+
+[funds]
+min_stake = 600
+max_unstaked = 10
+ram_funds = 100
+user_funds = 120000.0000
+producer_funds = 95000.0000
+
+[keosd]
+wallet_dir = './wallet/'
+http_server_address = '127.0.0.1:8866'
+path = 'keosd '
+unlock_timeout = 999999999
+wallet_file = 'genesis_wallet_passwd.txt'
